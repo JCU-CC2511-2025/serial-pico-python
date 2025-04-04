@@ -17,6 +17,10 @@ off
 
 Neither of these scripts implements sufficient error and state checking.
 
+## Setup
+
+To run the Python scripts, you will need to install `pyserial`. You may need to install `tk` if it is not available on your machine.
+
 ## Connections
 
 These scripts will fail to connect if you already have a connection open to the COM port connected to the Pi Pico, whether through Putty, the Serial Monitor, the debugger, or another Python instance.
