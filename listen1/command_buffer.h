@@ -16,7 +16,6 @@ typedef struct command_buffer_t {
 } command_buffer_t;
 
 void command_buffer_init(command_buffer_t *cb, bool echo);
-
 bool command_buffer_read_input(command_buffer_t *cb);
 
 #endif // __COMMAND_BUFFER_H__

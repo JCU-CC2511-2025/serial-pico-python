@@ -1,5 +1,4 @@
 import serial
-from time import localtime, strftime
 
 ser = serial.Serial()
 ser.port = 'COM18'
